@@ -30,4 +30,12 @@ This project implements **user authentication and authorization** using **Spring
 ---
 
 ## 🏗️ Project Structure
+src/
+├── config/ # Security & JWT configs
+├── controller/ # Auth endpoints
+├── dto/ # Request/Response models
+├── entity/ # User, Role entities
+├── repository/ # Spring Data JPA repositories
+├── service/ # Business logic
+└── JwtAuthApplication.java
 
